@@ -1,0 +1,37 @@
+{
+  "name": "REACT-WEBPACK4-COOK",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config ./webpack.config.js --color --progress",
+    "build": "webpack --config ./build/webpack.prod.config.js --color --progress",
+    "build:dll": "webpack --config ./build/webpack.dll.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "@babel/runtime-corejs2": "^7.9.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "core-js": "2",
+    "css-loader": "^3.5.1",
+    "html-webpack-plugin": "^4.2.0",
+    "node-sass": "^4.13.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.3"
+  }
+}
