@@ -1,10 +1,16 @@
+@font-face{
+    font-family: 'busong';
+    src:url('./本墨钧宋.ttf');
+}
+
 .home {
     height: 80vh;
     transform: rotate(3deg);
-    background: #bfffbf;
+    background: url('./timg.jpg') no-repeat;
 
     .h-txt {
         margin-top: 100px;
+        font-family: 'busong';
         color: red;
     }
 }
